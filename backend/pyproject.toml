@@ -1,0 +1,9 @@
+[project]
+name = "personal-backlog-backend"
+version = "0.1.0"
+description = "FastAPI backend for personal backlog management"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.129.0",
+    "uvicorn[standard]>=0.41.0",
+]
